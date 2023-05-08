@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -12,13 +12,13 @@
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" target="_blank" class="header__link link-transition">Узнать →</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="header__link link-transition">Узнать &rarr;</a>
       </p>
       <img src="./images/header-image.png" alt="Фрагмент картины 'Опять двойка' Фёдора Решетникова" class="header__main-illustration">
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
-      <section class="description">
+      <section class="description" aria-label="Описание">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -66,17 +66,15 @@
         <ul class="video__iframes">
           <li class="video__li">
             <iframe class="video__iframe"
-            src="https://www.youtube.com/embed/5MgBikgcWnY">
-            Ссылка на видео 'Как научиться чему-либо. Джош Кауфман'</iframe>
+            src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
           </li>
           <li class="video__li">
             <iframe class="video__iframe" 
-            src="https://www.youtube.com/embed/arj7oStGLkU">
-            Ссылка на видео 'В голове мастера-прокрастинатора. Тим Урбан'</iframe>
+            src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
           </li>
         </ul>
       </section>
-      <section class="oakley">
+      <section class="oakley" aria-label="Барбара Окли">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
@@ -87,7 +85,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" target="_blank" class="feynman__link link-transition">Подробнее →</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="feynman__link link-transition">Подробнее &rarr;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -131,14 +129,14 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана 'Весь мир - школа'" class="khan__book-pic">
-            <a href="#" target="_blank" class="khan__buy-link link-transition">Купить книгу →</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="khan__buy-link link-transition">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -192,30 +190,28 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <nav class="resources__nav">
           <ul class="resources__logo-zone">
             <li class="resources__li">
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="resources__link link-transition">
                 <img src="./images/resources-logo/resources-arzamas.svg" alt="Логотип Арзамас" class="resources__logo">
               </a>
             </li>
             <li class="resources__li">
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="resources__link link-transition">
                 <img src="./images/resources-logo/resources-n1.svg" alt="Логотип Н + 1" class="resources__logo">
               </a>
             </li>
             <li class="resources__li">
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="resources__link link-transition">
                 <img src="./images/resources-logo/resources-strelka.svg" alt="Логотип Стрелка" class="resources__logo">
               </a>
             </li>
             <li class="resources__li">
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="resources__link link-transition">
                 <img src="./images/resources-logo/resources-polka.svg" alt="Логотип Полка" class="resources__logo">
               </a>
             </li>
           </ul>
-        </nav>
       </section>
     </main>
     <footer class="footer">
@@ -225,38 +221,47 @@
           <p class="footer__author">&copy; Александра Костюкова</p>
         </div>
         <div class="footer__column footer__column_content_info">
-          <h3 class="footer__column-heading">О Практикуме</h3>
+          <h2 class="footer__column-heading">О Практикуме</h2>
           <nav class="footer__column-links">
             <ul class="footer__links-list">
               <li class="footer__list-item">
-                <a href="#" target="_blank" class="footer__column-link link-transition">Главная</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" 
+                class="footer__column-link link-transition">Главная</a>
               </li>
               <li class="footer__list-item">
-                <a href="#" target="_blank" class="footer__column-link link-transition">Концепция</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" 
+                class="footer__column-link link-transition">Концепция</a>
               </li>
               <li class="footer__list-item">
-                <a href="#" target="_blank" class="footer__column-link link-transition">Наставники</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" 
+                class="footer__column-link link-transition">Наставники</a>
               </li>
             </ul>
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
-          <h3 class="footer__column-heading">Соцсети</h3>
+          <h2 class="footer__column-heading">Соцсети</h2>
           <nav class="footer__column-links">
             <ul class="footer__links-list">
               <li class="footer__list-item">
-                <a href="#" target="_blank" class="footer__column-link link-transition">
-                  <img src="./images/footer-icon/youtube-icon.svg" alt="иконка ютуб" class="footer__social-icon">YouTube
+                <a href="#" target="_blank" rel="noopener noreferrer" 
+                class="footer__column-link link-transition">
+                  <img src="./images/footer-icon/youtube-icon.svg" 
+                  alt="иконка ютуб" class="footer__social-icon">YouTube
                 </a>
               </li>
               <li class="footer__list-item">
-                <a href="#" target="_blank" class="footer__column-link link-transition">
-                  <img src="./images/footer-icon/vk-icon.svg" alt="иконка вконтакте" class="footer__social-icon">ВКонтакте
+                <a href="#" target="_blank" rel="noopener noreferrer" 
+                class="footer__column-link link-transition">
+                  <img src="./images/footer-icon/vk-icon.svg" 
+                  alt="иконка вконтакте" class="footer__social-icon">ВКонтакте
                 </a>
               </li>
               <li class="footer__list-item">
-                <a href="#" target="_blank" class="footer__column-link link-transition">
-                  <img src="./images/footer-icon/tiktok-icon.svg" alt="иконка тикток" class="footer__social-icon">TikTok
+                <a href="#" target="_blank" rel="noopener noreferrer" 
+                class="footer__column-link link-transition">
+                  <img src="./images/footer-icon/tiktok-icon.svg" 
+                  alt="иконка тикток" class="footer__social-icon">TikTok
                 </a>
               </li>
             </ul>
